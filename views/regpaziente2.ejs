@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+     <form action="/registraPaziente/" method="POST">  
+       
+        <div>
+            <label for="paziente">Paziente: </label>
+
+            <select name="paziente" id="paziente">
+                
+                <option value="Paziente1">Paziente1</option>
+                <option value="Paziente2">Paziente2</option>
+                <option value="Paziente3">Paziente3</option>
+                <option value="Paziente4">Paziente4</option>
+                <option value="Paziente5">Paziente5</option>
+               
+            </select>
+
+        </div>
+
+
+        <div>
+            <label>Nome</label> <br>
+            <input type="text"  id="nome" name="nome">
+        </div>
+    
+        <div>
+            <label>Cognome</label> <br>
+            <input type="text" id="cognome" name="cognome">
+        </div>
+
+        <div>
+            <label>Codice Fiscale</label> <br>
+            <input type="text" id="cf" name="cf">
+        </div>
+
+        <div>
+            <label>Indirizzo</label> <br>
+            <input type="text" id="indirizzo"  name="indirizzo">
+        </div>
+
+        <div>
+            <label>Città</label> <br>
+            <input type="text" id="citta" name="citta">
+        </div>
+
+        <div>
+            <label>Telefono</label> <br>
+            <input type="text" id="tel" name="tel">
+        </div>
+
+        <div>
+            <label>Malattie pregresse</label> <br>
+            <textarea name="malattie" id="malattie" cols="30" rows="10" style="resize: none;"></textarea>
+        </div>
+
+        <div>
+            <label>Altro</label> <br>
+            <input type="text" id="altro" name="altro">
+           
+        </div>
+
+       <div>
+           <input type="submit" value="Invia">
+       </div> 
+
+     </form>
+    
+    </body>
+</html>
